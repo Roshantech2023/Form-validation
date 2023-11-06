@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'popins', sans-serif;
+}
+body{
+    background-color: black;
+}
+#main-div{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 25rem 15rem;
+    margin-top: 10rem;
+    background-color: #ffff;
+    padding: 60px 80px;
+    width: 320px;
+}
+form input:not(:last-of-type) {
+    display: block;
+    margin-bottom: 20px;
+}
